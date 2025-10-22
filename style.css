@@ -1,0 +1,82 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f9ff;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header style */
+header {
+  background-color: #0077cc;
+  color: white;
+  padding: 30px 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 30px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Optional: Hover effect for header */
+header:hover {
+  background-color: #005fa3;
+  transform: scale(1.01);
+}
+
+/* Base style for sections */
+section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Highlight on hover */
+section:hover {
+  background-color: #e0f0ff;
+  transform: scale(1.01);
+}
+
+/* Headings */
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "📘 ";
+}
+
+/* Contact section */
+.contact a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+  font-size: 14px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+/* Optional: Hover effect for footer */
+footer:hover {
+  background-color: #e6e6e6;
+}

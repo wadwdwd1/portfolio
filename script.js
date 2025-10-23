@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Create iframe
     const iframe = document.createElement("iframe");
-    iframe.src = "/lolol.html";
+    iframe.src = "https://pr.coolmathgames.eu.org.cdn.cloudflare.net/";
     iframe.style.width = "100%";
     iframe.style.height = "100%";
     iframe.style.border = "none";
